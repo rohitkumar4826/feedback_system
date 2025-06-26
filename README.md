@@ -134,3 +134,11 @@ node server.js
 cd client
 npm start
 ```
+
+## Images
+
+![im1](https://github.com/user-attachments/assets/f0105f9e-b5b5-4451-bc26-4f96f35917b2)
+
+![im2](https://github.com/user-attachments/assets/3bbf8111-10e3-4f8b-9282-f1447c6a1301)
+
+![im3](https://github.com/user-attachments/assets/5ccc8bf7-0367-4cf3-b31e-e7f2b12d05fd)
