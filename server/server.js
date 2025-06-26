@@ -18,7 +18,7 @@ const limiter = rateLimit({
 // Middleware
 app.use(limiter);
 app.use(cors({
-  origin: 'https://feedback-system-qdfu.onrender.com', // replace with your actual frontend domain
+  origin: 'https://feedback-system-1-hquk.onrender.com', // replace with your actual frontend domain
   methods: ['GET', 'POST', 'DELETE'], // include any methods your frontend uses
   credentials: true
 }));
