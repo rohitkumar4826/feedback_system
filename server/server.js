@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const rateLimit = require('express-rate-limit');
 require('dotenv').config();
 
-const feedbackRoutes = require('./routes/feedback');
+const feedbackRoutes = require('./routes/Feedback');
 const { errorHandler, notFound } = require('./middleware/errorMiddleware');
 
 const app = express();
