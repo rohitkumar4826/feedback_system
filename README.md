@@ -93,7 +93,44 @@ Before running the application, ensure you have installed:
 ```bash
 git clone [git@github.com:rohitkumar4826/feedback_system.git]
 cd ai_feedback
+```
+```bash
 cd server
 npm install
+```
+```bash
 cd ../client
 npm install
+```
+
+## Environment Variables
+
+### Server(.env)
+
+```bash
+PORT=4000
+MONGODB_URI=mongodb://localhost:27017/feedback-app (optional)
+OPENAI_API_KEY=your_openai_key (or MOCK_API=true)
+```
+
+### Client(.env)
+
+```bash
+REACT_APP_API_URL=http://localhost:4000
+```
+
+## Usage
+
+### Start the backend server:
+
+```bash
+cd server
+node server.js
+```
+
+### Start the frontend server:
+
+```bash
+cd client
+npm start
+```
