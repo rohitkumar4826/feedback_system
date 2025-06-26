@@ -91,5 +91,9 @@ Before running the application, ensure you have installed:
 ### 1. Clone the repository
 
 ```bash
-git clone [your-repository-url]
-cd ai-feedback-app
+git clone [git@github.com:rohitkumar4826/feedback_system.git]
+cd ai_feedback
+cd server
+npm install
+cd ../client
+npm install
