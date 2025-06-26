@@ -17,7 +17,11 @@ const limiter = rateLimit({
 
 // Middleware
 app.use(limiter);
-app.use(cors());
+app.use(cors({
+  origin: 'https://feedback-system-qdfu.onrender.com', // replace with your actual frontend domain
+  methods: ['GET', 'POST', 'DELETE'], // include any methods your frontend uses
+  credentials: true
+}));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
